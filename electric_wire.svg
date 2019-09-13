@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.1"
+   id="svg866"
+   width="899"
+   height="40.243462"
+   viewBox="0 0 899 40.243462"
+   sodipodi:docname="electric_wire.svg"
+   inkscape:version="0.92.4 (unknown)">
+  <metadata
+     id="metadata872">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs870" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1855"
+     inkscape:window-height="1056"
+     id="namedview868"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:zoom="1.4938821"
+     inkscape:cx="512.46691"
+     inkscape:cy="72.012943"
+     inkscape:window-x="65"
+     inkscape:window-y="24"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg866" />
+  <path
+     inkscape:connector-curvature="0"
+     id="path916"
+     d="M 450,40.243452 H 0 l 1.5,-0.969374 1.5,-0.969374 -1.416667,-0.01531 -1.416666,-0.01531 0.748256,-0.75 0.748256,-0.75 27.66841,-0.5 27.668411,-0.5 v -16.5 -16.5 l -27.668411,-0.5 -27.66841,-0.5 L 0.831589,0.887042 0,0 94.999996,0.639516 190,1.279033 293.5,2.751986 397,4.224938 h 53 53 L 606.5,2.751986 710,1.279033 805,0.639516 900,0 l -0.83159,0.887042 -0.83159,0.887042 -27.66841,0.5 -27.66841,0.5 v 16.5 16.5 l 27.66841,0.5 27.66841,0.5 0.74826,0.75 0.74825,0.75 -1.41666,0.01531 -1.41667,0.01532 1.5,0.969374 1.5,0.969374 z M 137.42291,36.030321 213,35.774078 v -15.5 -15.5 L 138.29731,3.898934 63.594624,3.02379 62.047312,3.617549 60.5,4.211308 v 15.364719 15.364718 l 0.672909,0.672909 0.67291,0.672909 z m 156,0 L 369,35.774078 v -14.5 -14.5 L 294.30591,5.895634 219.61182,5.017191 218.05591,5.61425 216.5,6.211308 v 14.364719 14.364718 l 0.67291,0.672909 0.67291,0.672909 z M 450.221,36.030293 527,35.774078 v -14 -14 h -77 -77 l -0.28135,12.947115 -0.28135,12.947115 0.50235,1.3091 0.50235,1.309101 z m 157.00003,7.8e-5 L 683,35.774078 v -15 -15 L 659.5,5.535319 636,5.296559 583.5,6.035319 531,6.774078 l -0.28041,13.449549 -0.28042,13.449548 0.50145,1.306745 0.50144,1.306745 z m 156,0 L 839,35.774078 839.2755,20.002479 839.55101,4.230881 837.97819,3.627335 836.40538,3.02379 761.70269,3.898934 687,4.774078 l -0.2787,14.454015 -0.2787,14.454014 0.49973,1.302279 0.49973,1.302279 z"
+     style="fill:#000000;fill-opacity:1" />
+</svg>

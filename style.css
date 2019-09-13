@@ -1,0 +1,154 @@
+#world-container, body, html {
+    width: 100%;
+    height: 100%;
+    background: url("forest.png");
+    background-position: bottom center;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    font-size: 5vmin;
+    box-sizing: border-box;
+}
+
+#world-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    align-content: flex-end;
+    overflow: hidden;
+}
+
+#next-button {
+    width: 2em;
+    height: 2em;
+    padding: 0.5em;
+    margin: 0.25rem;
+    position: absolute;
+    border-radius: 50%;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    background: rgb(250, 250, 250);
+    box-shadow: 0 0 1rem rgb(0, 0, 0, .5);
+    z-index: 10;
+}
+#trackbed {
+    width: auto;
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-end;
+    align-content: flex-end;
+    position: relative;
+}
+
+#trackbed::after {
+    content: '';
+    display: block;
+    position: absolute;
+    background: url("track.svg");
+    background-repeat: repeat-x;
+    background-position: bottom;
+    background-size: auto 2em;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 2;
+}
+
+.democracy-sign {
+    padding: 1em;
+    background-color: #4d7050;
+    background-image: url("https://www.transparenttextures.com/patterns/brick-wall.png");
+    border: 4px black solid;
+    font-size: 0.7rem;
+    flex: none;
+    margin-left: 8vw;
+    padding-bottom: calc(8.5em - 4px);
+    position: relative;
+    z-index: 2;
+    max-width: 80vw;
+    max-height: 90vh;
+}
+
+/*
+.democracy-sign::before {
+    display: block;
+    content: '';
+    width: 100%;
+    background: rgb(255, 100, 100);
+    height: calc(6em - 4px);
+    position: absolute;
+    top: -6em;
+    z-index: 2;
+    left: 0;
+    clip-path: polygon(0 100%, 50% 0, 100% 100%);
+}
+*/
+
+
+#train {
+    display: inline-flex;
+    flex-wrap: nowrap;
+    align-items: flex-end;
+    align-content: flex-end;
+    width: auto;
+    position: absolute;
+    bottom: 1.93em;
+    left: 0;
+    transform: translateX(-50em) translateZ(0) scale(1.0, 1.0);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    z-index: 5;
+}
+
+.emissions-particle {
+    border-radius: 50%;
+    background: linear-gradient(rgb(120, 120, 0), rgb(140, 120, 0));
+    width: 1em;
+    height: 1em;
+}
+#electric-wire {
+    height: 1em;
+    width: 100%;
+    position: absolute;
+    bottom: 4.9em;
+    background: url("electric_wire.svg");
+    background-repeat: repeat-x;
+    background-position: bottom;
+    background-size: 22.5em 1em;
+    z-index: 5;
+}
+
+
+
+#catenary-poles {
+    height: 5.9em;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background: url("catenary_pole.svg");
+    background-repeat: repeat-x;
+    background-position: bottom;
+    display: block;
+    content: '';
+    z-index: 6;
+}
+
+#electric-wire, #catenary-poles {
+    display: none;
+}
+.traincar {
+    height: 2em;
+    margin: 0 -0.21em;
+}
+
+.locomotive {
+    height: 3em;
+}
