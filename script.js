@@ -194,8 +194,6 @@ window.onload = function() {
         }
         if(viewedSigns == 6) {
             $(".locomotive").attr("src", "electric.svg");
-            $("#catenary-poles").show();
-            $("#electric-wire").show();
             speedFactor /= 2;
         }
         if(moveInterval == null)
